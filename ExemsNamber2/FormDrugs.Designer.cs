@@ -96,12 +96,15 @@
             // 
             // buttonBackToMenu
             // 
+            this.buttonBackToMenu.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonBackToMenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonBackToMenu.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonBackToMenu.Location = new System.Drawing.Point(841, 12);
             this.buttonBackToMenu.Name = "buttonBackToMenu";
             this.buttonBackToMenu.Size = new System.Drawing.Size(131, 55);
             this.buttonBackToMenu.TabIndex = 1;
             this.buttonBackToMenu.Text = "Вернуться в меню";
-            this.buttonBackToMenu.UseVisualStyleBackColor = true;
+            this.buttonBackToMenu.UseVisualStyleBackColor = false;
             this.buttonBackToMenu.Click += new System.EventHandler(this.buttonBackToMenu_Click);
             // 
             // FormDrugs

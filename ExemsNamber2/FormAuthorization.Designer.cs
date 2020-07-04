@@ -60,24 +60,30 @@
             // 
             // buttonAut
             // 
-            this.buttonAut.Location = new System.Drawing.Point(84, 390);
+            this.buttonAut.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonAut.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonAut.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonAut.Location = new System.Drawing.Point(84, 401);
             this.buttonAut.Margin = new System.Windows.Forms.Padding(5);
             this.buttonAut.Name = "buttonAut";
-            this.buttonAut.Size = new System.Drawing.Size(158, 57);
+            this.buttonAut.Size = new System.Drawing.Size(158, 46);
             this.buttonAut.TabIndex = 0;
             this.buttonAut.Text = "Войти";
-            this.buttonAut.UseVisualStyleBackColor = true;
+            this.buttonAut.UseVisualStyleBackColor = false;
             this.buttonAut.Click += new System.EventHandler(this.buttonAut_Click);
             // 
             // buttonReg
             // 
+            this.buttonReg.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonReg.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonReg.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonReg.Location = new System.Drawing.Point(98, 578);
             this.buttonReg.Margin = new System.Windows.Forms.Padding(5);
             this.buttonReg.Name = "buttonReg";
             this.buttonReg.Size = new System.Drawing.Size(158, 49);
             this.buttonReg.TabIndex = 1;
             this.buttonReg.Text = "Регистрация";
-            this.buttonReg.UseVisualStyleBackColor = true;
+            this.buttonReg.UseVisualStyleBackColor = false;
             this.buttonReg.Click += new System.EventHandler(this.buttonReg_Click);
             // 
             // panelAut
@@ -106,8 +112,9 @@
             // 
             // comboBoxType
             // 
-            this.comboBoxType.BackColor = System.Drawing.Color.White;
+            this.comboBoxType.BackColor = System.Drawing.SystemColors.HotTrack;
             this.comboBoxType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxType.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.comboBoxType.FormattingEnabled = true;
             this.comboBoxType.Items.AddRange(new object[] {
             "Фармацевт",
@@ -187,13 +194,16 @@
             // 
             // buttonZareg
             // 
+            this.buttonZareg.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.buttonZareg.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonZareg.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonZareg.Location = new System.Drawing.Point(65, 429);
             this.buttonZareg.Margin = new System.Windows.Forms.Padding(5);
             this.buttonZareg.Name = "buttonZareg";
             this.buttonZareg.Size = new System.Drawing.Size(197, 31);
             this.buttonZareg.TabIndex = 8;
             this.buttonZareg.Text = "Зарегистрироваться";
-            this.buttonZareg.UseVisualStyleBackColor = true;
+            this.buttonZareg.UseVisualStyleBackColor = false;
             this.buttonZareg.Click += new System.EventHandler(this.buttonZareg_Click);
             // 
             // labelMiddleNAmeReg
@@ -319,6 +329,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(354, 661);
             this.Controls.Add(this.panelReg);
             this.Controls.Add(this.labelReg);

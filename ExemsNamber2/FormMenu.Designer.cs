@@ -52,7 +52,7 @@
             // 
             this.buttonMedicineUser.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.buttonMedicineUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonMedicineUser.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonMedicineUser.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonMedicineUser.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.buttonMedicineUser.Location = new System.Drawing.Point(0, 152);
             this.buttonMedicineUser.Margin = new System.Windows.Forms.Padding(15);
@@ -75,6 +75,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(291, 205);
             this.Controls.Add(this.labelStart);
             this.Controls.Add(this.buttonMedicineUser);
