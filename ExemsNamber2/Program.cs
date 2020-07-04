@@ -22,6 +22,6 @@ namespace ExemsNamber2
     }
     static class Personal
     {
-        public static int Id { get; set; }
+        public static string Type { get; set; }
     }
 }

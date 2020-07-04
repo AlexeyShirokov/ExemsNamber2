@@ -16,11 +16,18 @@ namespace ExemsNamber2
         public FormMenu()
         {
             InitializeComponent();
-            if (Personal.Id == 0)
+            if (Personal.Type == "Doctor")
+            {
+                labelStart.Text = "Вы вошли как фармацевт";
+                buttonMedicineUser.Location = new Point(800, 140);
+                buttonOpenMedicine.Location = new Point(0, 140);
+            }
+            else 
             {
                 labelStart.Text = "Вы вошли как пользователь";
-                buttonMedicineUser.Location = new Point(0,40);
-                buttonOpenMedicine.Location = new Point(800,40);
+              
+                buttonMedicineUser.Location = new Point(0, 140);
+                buttonOpenMedicine.Location = new Point(800, 140);
             }
         }
 

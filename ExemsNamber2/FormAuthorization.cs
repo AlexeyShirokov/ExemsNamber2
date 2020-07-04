@@ -49,7 +49,7 @@ namespace ExemsNamber2
                             Form formMenu = new FormMenu();
                             formMenu.Show();
                             this.Hide();
-                            Personal.Id = 0;
+                            Personal.Type = "Doctor";
                         }
                     }
                 }
@@ -81,7 +81,7 @@ namespace ExemsNamber2
                             Form formMenu = new FormMenu();
                             formMenu.Show();
                             this.Hide();
-                            Personal.Id = 1;
+                            Personal.Type = "user";
                         }
                     }
                 }
